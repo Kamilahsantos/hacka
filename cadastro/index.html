@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Empreenda Mulher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,900" rel="stylesheet">
+</head>
+<body>
+    <section class="cadastro">
+        <div class="container">
+            <img class="logo" src="../img/logo.png">
+            <h1>Cadastro:</h1>
+            <form>
+                <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="row"> 
+                            <div class="form-group col-lg-3">
+                                    <label for="endereco">CPF:</label>
+                                    <input type="text" class="form-control" id="cpf" placeholder="">
+                                </div>
+                        <div class="form-group col-lg-3">
+                            <label for="endereco">Data de nascimento:</label>
+                            <input type="date" class="form-control" id="dataNasc" placeholder="">
+                        </div>
+                        <div class="form-group col-lg-3">
+                                <label for="InputGen">Gênero:</label>
+                                <select id="genero" class="form-control">
+                                    <option selected></option>
+                                    <option value="masc">masculino</option>
+                                    <option value="fem">feminino</option>
+                                    <option value="trans">trans</option>
+                                    <option value="cis">cis</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-3">
+                                    <label for="InputEst">Estado Civil:</label>
+                                    <select id="estadoCiv" class="form-control">
+                                        <option selected></option>
+                                        <option value="solteiro">solteira</option>
+                                        <option value="casada">casada</option>
+                                        <option value="divorciada">divorciada</option>
+                                    </select>
+                                </div>
+                            
+                        <div class="form-group col-lg-9">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail email">
+                        </div>
+                        <div>
+                            <div>
+                                <legend class="col-form-label">Trabalha Registrado?</legend>
+                                <div class="col-sm-10">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="Trabalha" id="sim" value="Trabalha">
+                                    <label class="form-check-label" for="opTrab">
+                                      Sim
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="noTrabalha" id="não" value="noTrabalha">
+                                    <label class="form-check-label" for="opNoTrab">
+                                      Não
+                                    </label>
+                                  </div>
+                                </div>              
+                                    <legend class="col-form-label ">Produz ou comercializa algo?</legend>
+                                    <div class="col-sm-10">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="comercial" id="sim" value="comercial">
+                                        <label class="form-check-label" for="comercializo">
+                                          Sim
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="noComercial" id="não" value="noComercial">
+                                        <label class="form-check-label" for="NoComercializo">
+                                          Não
+                                        </label>
+                                      </div>
+                                    </div>
+                                        <legend class="col-form-label">Tem acesso a sistema de crédito bancário?</legend>
+                                        <div class="col-sm-10">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="ter" id="sim" value="ter">
+                                            <label class="form-check-label" for="opcaoSim">
+                                              Sim
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="noTer" id="não" value="noTer">
+                                            <label class="form-check-label" for="opcaoNao">
+                                              Não
+                                            </label>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br/>
+                    <div class="form-group">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" class="form-control" id="endereco" placeholder="">
+                    </div>
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" class="form-control" id="cidade">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Estado:</label>
+                    <select id="estado" class="form-control">
+                        <option selected>Selecione... </option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                    </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="cep">CEP:</label>
+                        <input type="text" class="form-control" id="cep">
+                    </div>
+                </div>
+                    <div class="frame">
+                            <div class="center">
+                                  <div class="parent">
+                                      <button class="btn-hover">Enviar</button>
+                                      <div class="shadow"></div>
+                                  </div>
+                                  
+                            </div>
+                          </div>
+                  </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+                Copyright © &lt;div&gt@loopers. Todos os direitos reservados.
+        </div>
+    </footer>
+    
+</body>
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.cadastro{
+    background-image: url(./img/mulherInicial.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 320px;
+    opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+}
+
+.cadastro:hover{
+    opacity:1;
+	-moz-opacity: 1;
+}
+
+.titulo{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+h1{
+    padding-top: 177px;
+    font-size: 3.3rem;
+    color: #892d9c;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #892d9c;
+}
+a{
+    color: black;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.titulo p{
+    width: 60%;
+    font-size: 24px;
+    color: #892d9c;
+}
